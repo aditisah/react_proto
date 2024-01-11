@@ -1,0 +1,86 @@
+
+.auth-card {
+  width: 89rem;
+  height: 40rem;
+  border-radius: 2rem !important;
+}
+.title {
+  margin-left: 4rem;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.add-user-container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.col-names, .input-controls {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  margin-left: 4rem;
+}
+.col-names {
+  gap: 16.7rem;
+  font-size: 1rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+.col-part-1, .col-part-2 {
+  display: flex;
+}
+.col-part-1 {
+  gap: 14.7rem;
+}
+.col-part-2 {
+  gap: 6.5rem;
+}
+.input-controls {
+  gap: 4rem;
+}
+.input-controls input {
+  height: 1.75rem;
+  border-radius: 0.5rem;
+  border: 0.07rem #DEDEDE solid;
+  color: #707070;
+  font-weight: 300;
+  font-size: 0.75rem;
+  text-indent: 0.5rem;
+  outline: none;
+}
+
+#item-name,#brand {
+width: 15rem;
+}
+
+#qty, #max-price {
+  width: 6rem;
+}
+
+.input-row {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+#add-btn, #delete-btn {
+  cursor: pointer;
+}
+#add-btn {
+  height: 60%;
+  margin-left: 4rem;
+  margin-top: 1rem;
+}
+
+.btn-container {
+  display: flex;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+.white-btn, .blue-btn {
+  width: 6rem;
+  margin-top: 0;
+}
+.white-btn {
+  margin-left: 4rem;
+}

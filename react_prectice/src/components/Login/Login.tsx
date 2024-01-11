@@ -62,8 +62,7 @@ function Login() {
  
      }
   return (
-    <div className="main-auth-container">
-  <div className="auth-background-image"></div>
+  <div className="auth-main-container">
 <Card className="auth-card">
     <CardHeader
     title= {
