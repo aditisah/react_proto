@@ -14,31 +14,15 @@
   display: flex;
   flex-wrap: wrap;
 }
-.col-names, .input-controls {
-  display: flex;
-  justify-content: start;
-  align-items: center;
-  margin-left: 4rem;
-}
+
 .col-names {
   gap: 16.7rem;
   font-size: 1rem;
   font-weight: 400;
   margin-bottom: 1rem;
 }
-.col-part-1, .col-part-2 {
-  display: flex;
-}
-.col-part-1 {
-  gap: 14.7rem;
-}
-.col-part-2 {
-  gap: 6.5rem;
-}
-.input-controls {
-  gap: 4rem;
-}
-.input-controls input {
+
+input {
   height: 1.75rem;
   border-radius: 0.5rem;
   border: 0.07rem #DEDEDE solid;
@@ -83,4 +67,14 @@ width: 15rem;
 }
 .white-btn {
   margin-left: 4rem;
+}
+
+
+.add-user-grid {
+  display: grid;
+  grid-template-columns: 12rem 12rem 9rem 10rem 10rem 5rem;
+  grid-gap:2rem;
+  padding: 1rem;
+  width: 100%;
+  margin-left: 3rem;
 }

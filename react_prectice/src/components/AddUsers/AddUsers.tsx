@@ -17,29 +17,23 @@ function AddUsers() {
     ></CardHeader>
 <form>
     <div className='add-user-container'>
-    <div className="col-names">
-      <div className="col-part-1">
+      <div className='add-user-grid'>
         <div>Name</div>
       <div>Email</div>
         <div>Phone</div>
-      </div>
-      <div className="col-part-2">
       <div>Password</div>
       <div>Role</div>
-      </div>
-    </div>
-   <div className="input-row">
-    <div className="input-controls">
-      <input id="name"/>
-      <input id="email"/>
-      <input id="phone"/>
-      <input id="password"/>
-      <input id="role"/>
-    </div>
+    <div></div>
+      <input className='input-controls' id="name"/>
+      <input className='input-controls' id="email"/>
+      <input className='input-controls' id="phone"/>
+      <input className='input-controls' id="password"/>
+      <input className='input-controls' id="role"/>
     <div id="delete-btn"><span><FontAwesomeIcon icon={faTrashCan} style={{color: '#00ADEF', paddingLeft: '5px', paddingTop: '4px'}}/></span></div>
     
 
-   </div>
+      </div>
+   
     </div>
    <div><img id="add-btn" src={addUserButton}/></div>
    <div className='btn-container'>
