@@ -1,19 +1,36 @@
 
 .auth-card {
+  display: flex;
+  flex-direction: column;
   width: 89rem;
   height: 40rem;
   border-radius: 2rem !important;
 }
-.title {
-  margin-left: 4rem;
-  font-size: 1.5rem;
-  font-weight: 500;
+.add-user-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(12rem, 1fr));
+  grid-gap:0.75rem;
+  padding: 1rem;
+  width: 100%;
+  margin-left: 3rem;
 }
-
+.header {
+  align-self: flex-end;
+  margin-right: 4rem;
+}
 .add-user-container {
   display: flex;
   flex-wrap: wrap;
+  align-self: flex-start;
 }
+.title {
+  margin-left: 4rem;
+}
+.title h2 {
+  font-weight: 100;
+  font-weight: 400;
+}
+
 
 .col-names {
   gap: 16.7rem;
@@ -33,20 +50,6 @@ input {
   outline: none;
 }
 
-#item-name,#brand {
-width: 15rem;
-}
-
-#qty, #max-price {
-  width: 6rem;
-}
-
-.input-row {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-  margin-top: 1rem;
-}
 #add-btn, #delete-btn {
   cursor: pointer;
 }
@@ -70,11 +73,3 @@ width: 15rem;
 }
 
 
-.add-user-grid {
-  display: grid;
-  grid-template-columns: 12rem 12rem 9rem 10rem 10rem 5rem;
-  grid-gap:2rem;
-  padding: 1rem;
-  width: 100%;
-  margin-left: 3rem;
-}

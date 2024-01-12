@@ -15,6 +15,7 @@ function AddUsers() {
       <img className='logo' src={logo}/>
     }
     ></CardHeader>
+    <div className='title'><h2>Add Users</h2></div>
 <form>
     <div className='add-user-container'>
       <div className='add-user-grid'>
